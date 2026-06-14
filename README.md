@@ -12,7 +12,7 @@ Is a runtime, GPU driven music visualizer for Windows that turns whatever you're
 
 LYRA listens to your **system audio** — so it reacts to anything you play — and renders up to **one million GPU particles** that move with the music´s detected stems. Connect Spotify and it also knows the song's title, artist, and artwork, and recolors the whole scene to match each album.
 
-It's a personal project, built for the joy of making something beautiful — not a product.
+It's a personal project, built for the joy of making something beautiful — Latest: ([PATCHNOTES-v0.2.0-ALPHA.md](PATCHNOTES-v0.2.0-ALPHA.md))
 
 ## ✦ Requirements
 
