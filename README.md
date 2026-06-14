@@ -48,4 +48,9 @@ LYRA is an **independent, non-commercial hobby project** made for fun. It is **n
 
 "Spotify" and the Spotify logo are trademarks of **Spotify AB**. LYRA uses the public Spotify Web API only to read now-playing metadata and album art for the signed-in user; it does not modify, redistribute, or stream Spotify content. All trademarks are the property of their respective owners.
 
+I recommend the following songs to listen for the good visualisation
+- https://open.spotify.com/track/65fPnec9ZIWi4YSMYOQXRm?si=32733bd86b5c4166 OUTTAHISMIND - Daniel Allan, Port London
+- https://open.spotify.com/track/3Y1EvIgEVw51XtgNEgpz5c?si=1c4a5a3060f5472a Von Dutch - Charli xcx (aka Brat)
+-
+-
 Enjoy
