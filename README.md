@@ -20,7 +20,7 @@ It's a personal project, built for the joy of making something beautiful — Lat
 - A **WebGPU-capable GPU** (developed on an NVIDIA RTX 5090; old GPUs can drop to a lower particle tier)
 - **Spotify Premium** account — for the Spotify features (now-playing + per-album color). The visualizer itself reacts to system audio and works with any source.
 
-## ✦ Spotify (Premium) set up
+## ✦ Spotify (Premium) set up (LYRA V1-V2)
 
 LYRA will ask for an Client ID to connect your spotify client with it.
 To get a Spotify Client ID, you need to create a developer application on the [Spotify for Developers Dashboard](https://developer.spotify.com/dashboard/).
