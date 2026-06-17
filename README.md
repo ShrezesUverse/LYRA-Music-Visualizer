@@ -2,64 +2,96 @@
 
 # LYRA
 
-Is a runtime, GPU driven music visualizer for Windows that turns whatever you're listening to into an animation/visualization
-> **LYRA is a private, fun made project. It is _not_ affiliated with, endorsed by, or sponsored by Spotify.**
-> See [Disclaimer](#disclaimer) below.
+A windows runtime, GPU driven music visualizer that turns whatever you're listening to into an animation.
+
+> **LYRA is a private, for fun project. It is _not_ affiliated with, endorsed by, or sponsored by Spotify or others**
+> See the [Disclaimer](#disclaimer) below.
 
 ---
 
 ## ✦ What it is
 
-LYRA listens to your **system audio** — so it reacts to anything you play — and renders up to **one million GPU particles** that move with the music´s detected stems. Connect Spotify and it also knows the song's title, artist, and artwork, and recolors the whole scene to match each album.
+LYRA listens to your **system audio** so it reacts to anything you currently play as sound and renders up to **1 million GPU particles** that move with the music's detected beats, drops and stems. It also reads the current song straight from **Windows** (title, artist and album cover), and recolors the whole scene to match each album color.
 
-It's a personal project, built for the joy of making something beautiful — Latest: ([PATCHNOTES-v0.2.0-ALPHA.md](PATCHNOTES-v0.2.0-ALPHA.md))
+Pick a scene and press play on anything:
+
+- **Nebula**
+- **Supercluster**
+
+Latest release notes: [PATCHNOTES-v0.4.0-ALPHA.md](PATCHNOTES-v0.4.0-ALPHA.md)
+
+## ✦ Revamp
+
+The redesigned, liquid glass Settings panel:
+
+![LYRA Settings](Source/0.4.0/NewUI/NewUI_01.png)
+
+The control dock and the now playing card:
+
+![LYRA dock](Source/0.4.0/NewUI/NewUI_03.png)
+
+![LYRA now playing](Source/0.4.0/NewUI/NewUI_02.png)
+
+## ✦ No login, no Spoti Premium
+
+LYRA reads the current track from **Windows System Media Transport Controls (SMTC)** the same source as the little media popup on your volume flyout.
+
+
+## ✦ Languages
+
+The interface is available in **English, Spanish, German, french, Portugues and italian**. LYRA follows your Windows language automatically, and you can switch any time in **Settings → Language**.
 
 ## ✦ Requirements
 
-- **Windows 10/11, 64-bit**
-- A **WebGPU-capable GPU** (developed on an NVIDIA RTX 5090; old GPUs can drop to a lower particle tier)
-- **Spotify Premium** account — for the Spotify features (now-playing + per-album color). The visualizer itself reacts to system audio and works with any source.
-
-## ✦ Spotify (Premium) set up (LYRA V1-V2)
-
-LYRA will ask for an Client ID to connect your spotify client with it.
-To get a Spotify Client ID, you need to create a developer application on the [Spotify for Developers Dashboard](https://developer.spotify.com/dashboard/).
-1. **Log in**: Go to the Spotify for Developers site and log in with your standard Spotify account.
-2. **Go to Dashboard**: Click on your profile icon in the top right corner and select [Dashboard](https://developer.spotify.com/dashboard/).
-3. **Create an App**: Click the Create an app button. In the App Details: Fill in `LYRA` for App Name and Redirect URIs is `http://127.0.0.1:8888/callback`, accept the Terms of Service, and click Save.
-4. **Find your Client ID**: Click on your newly created app from the [dashboard](https://developer.spotify.com/dashboard/), then click on Settings in the top right. Your Client ID will be visible right there.
-Done!
+- **Windows 10 / 11, 64-bit**
+- A **WebGPU-capable GPU** with latest drivers (developed on NVIDIA RTX hardware and older GPUs can decrease to a lower particle tier and render resolution in Settings)
+- Any audio source. that's it.
 
 ## ✦ Running it
 
-LYRA ships as a **portable executable**
-1. Grab `LYRA.exe` from the `Release` folder.
-2. Double-click it. (It self-extracts and runs.)
-3. Play something, and if you want the Spotify extras, connect your Spotify account when/if prompted.
+LYRA ships as a single **portable executable**.
+
+1. Take `LYRA.exe` from the [Releases](https://github.com/ShrezesUverse/LYRA-Music-Visualizer/releases) page.
+2. Double click it. enjoy!
+3. Press play on anything
+
+> Windows may show a SmartScreen warning ("Windows protected your PC") because the app is unsigned. Click **More info → Run anyway**
+
+## ✦ Controls
+
+Everything can be changed in the dock at the bottom of the window, but...
+
+| Key | Action |
+|-----|--------|
+| `G` / `N` | (Scenes)Galaxy / Nebula |
+| `1` / `2` / `3` | Quality tier (particles) — 250k / 500k / 1,000k |
+| `R` | Re acquire the audio device |
+| `D` | Toggle the audio-analysis debug overlay (with fps) |
 
 ## ✦ Built with
 
 - [Electron](https://www.electronjs.org/) + [electron-vite](https://electron-vite.org/) + TypeScript
 - [three.js](https://threejs.org/) `r184` — **WebGPU renderer** + **TSL** (Three.js Shading Language), with GPU compute particles
-- A custom AudioWorklet spectral-flux beat/onset detector
+- A custom AudioWorklet spectral flux beat/onset detector
+- A small native helper that reads Windows now playing via SMTC
 
----
 ## ✦ Privacy
 
-Your Spotify login stays on your machine´s AppData. The access token is stored locally and **encrypted with the OS keystore** — it is never bundled into the executable or sent anywhere except Spotify's own API. You are safe (:
+Your info doesnt get shared. LYRA only writes a local log to `%AppData%/lyra/lyra.log`
 
-More fun information and the controls list inside the repo `PATCHNOTES-v0.2.0-ALPHA.md`
---- 
+---
 
 ## Disclaimer
 
 LYRA is an **independent, non-commercial hobby project** made for fun. It is **not affiliated with, endorsed by, sponsored by, or connected to Spotify** in any way.
 
-"Spotify" and the Spotify logo are trademarks of **Spotify AB**. LYRA uses the public Spotify Web API only to read now-playing metadata and album art for the signed-in user; it does not modify, redistribute, or stream Spotify content. All trademarks are the property of their respective owners.
-```
-I recommend the following songs to listen for the good visualisation
-- https://open.spotify.com/track/65fPnec9ZIWi4YSMYOQXRm?si=32733bd86b5c4166 OUTTAHISMIND - Daniel Allan, Port London
-- https://open.spotify.com/track/3Y1EvIgEVw51XtgNEgpz5c?si=1c4a5a3060f5472a Von Dutch - Charli xcx (aka Brat)
--
--
-Enjoy
+"Spotify" and the Spotify logo are trademarks of **Spotify AB**. LYRA reads now-playing information from Windows' own media APIs — it does not log into, modify, redistribute, or stream Spotify content. All trademarks are the property of their respective owners.
+
+---
+
+A few tracks that look great in LYRA:
+
+- [OUTTAHISMIND — Daniel Allan, Port London](https://open.spotify.com/track/65fPnec9ZIWi4YSMYOQXRm)
+- [Von Dutch — Charli xcx](https://open.spotify.com/track/3Y1EvIgEVw51XtgNEgpz5c)
+
+Enjoy ✦
