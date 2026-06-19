@@ -1,4 +1,4 @@
-![LYRA — a planetarium for your sound](Source\1\Other\lyra-banner.png)
+![LYRA — a planetarium for your sound](Source/1/Other/lyra-banner.png)
 
 # LYRA
 
@@ -63,7 +63,7 @@ The interface is available in **English, Spanish, German, french, Portugues and 
 
 ## ✦ Made With
 
-![TypeScript, HTML, JavaScript, C#](Source\1\Other\Made_With.png)
+![TypeScript, HTML, JavaScript, C#](Source/1/Other/Made_With.png)
 
 ## ✦ Install
 
