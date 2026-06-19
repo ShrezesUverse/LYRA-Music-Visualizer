@@ -2,7 +2,7 @@
 
 *A planetarium for your sound*
 
-![LYRA](lyra-banner.png)
+![LYRA](Source/1/Other/lyra-banner.png)
 
 LYRA leaves alpha. **This is the first full release** and it grows beyond the app window. Because now, LYRA can now be your **stream overlay** and your **desktop wallpaper**, on top of the music visualizer you already know.
 
