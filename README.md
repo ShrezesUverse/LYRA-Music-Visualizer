@@ -106,9 +106,4 @@ LYRA is an **independent, non commercial fun made project** made for fun. It is 
 
 ---
 
-A few tracks that look great in LYRA:)
-
-- [OUTTAHISMIND — Daniel Allan, Port London](https://open.spotify.com/track/65fPnec9ZIWi4YSMYOQXRm)
-- [Von Dutch — Charli xcx](https://open.spotify.com/track/3Y1EvIgEVw51XtgNEgpz5c)
-
 Enjoy ✦
