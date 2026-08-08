@@ -1,7 +1,7 @@
 <br/>
 <div align="center">
   <a href="https://github.com/ShrezesUverse/LYRA-Music-Visualizer">
-    <img width="250" alt="LYRA — a planetarium for your sound" src="Source/1/Other/lyra-banner.png">
+    <img width="850" alt="LYRA — a planetarium for your sound" src="Source/1/Other/lyra-banner.png">
   </a>
   <h3>LYRA</h3>
 </div>
