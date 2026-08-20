@@ -119,8 +119,8 @@ Thanks to these wonderful people:
 <!-- markdownlint -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/ShrezesUverse"><img src="https://github.com/ShrezesUverse.png" width="100px"/><br/><sub><b>ShrezesUverse</b></sub></a><br/>Founder</td>
-    <td align="center"><a href="https://github.com/RaulSalasSahuquillo"><img src="https://github.com/RaulSalasSahuquillo.png" width="100px"/><br/><sub><b>RaulSalasSahuquillo</b></sub></a><br/>Contributor</td>
+    <td align="center"><a href="https://github.com/ShrezesUverse"><img src="https://github.com/ShrezesUverse.png" width="200px"/><br/><sub><b>ShrezesUverse</b></sub></a><br/>Founder</td>
+    <td align="center"><a href="https://github.com/RaulSalasSahuquillo"><img src="https://github.com/RaulSalasSahuquillo.png" width="200px"/><br/><sub><b>RaulSalasSahuquillo</b></sub></a><br/>Contributor</td>
   </tr>
 </table>
 
