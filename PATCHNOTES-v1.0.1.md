@@ -1,6 +1,6 @@
-# LYRA — v1.0.0 · "First Light"
+# LYRA — v1.0.1 · "First Light"
 
-*A planetarium for your sound*
+*LYRA should now work with Linux*
 
 ![LYRA](Source/1/Other/lyra-banner.png)
 
