@@ -108,6 +108,28 @@ LYRA is an **independent, non commercial fun made project** made for fun. It is 
 
 "Spotify" and the Spotify logo are trademarks of **Spotify AB**. LYRA reads now playing information from Windows' own media APIs, it does not log into, modify, redistribute, or stream Spotify content. All trademarks are the property of their respective owners.
 
+-----------------
+
+<a name="contributors"></a>
+### Contributors
+
+Thanks to these wonderful people:
+
+<!-- space -->
+<!-- markdownlint -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ShrezesUverse"><img src="https://github.com/ShrezesUverse.png" width="100px"/><br/><sub><b>ShrezesUverse</b></sub></a><br/>Founder</td>
+    <td align="center"><a href="https://github.com/RaulSalasSahuquillo"><img src="https://github.com/RaulSalasSahuquillo.png" width="100px"/><br/><sub><b>RaulSalasSahuquillo</b></sub></a><br/>Contributor</td>
+  </tr>
+</table>
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Ko--fi?color=ff0de7&logo=ko-fi&logoColor=white&style=for-the-badge)](https://ko-fi.com/shrezee)
+
+Special thanks to:
+- [@RaulSalasSahuquillo](https://github.com/RaulSalasSahuquillo)
+For providing Lyra to Linux users as well.
+
 ---
 
 Enjoy ✦
